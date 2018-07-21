@@ -7,7 +7,11 @@
 body{
   font-family: 'Permanent Marker', cursive;
   /* Background */
+<<<<<<< HEAD
   background-image: url("../images/mango.svg");
+=======
+  background-image: url("../images/coconut.jpg");
+>>>>>>> 927e348fe53d22474b69c282af4c0d842a9a9086
   background-repeat: repeat;
   background-position: center;
   background-size: 100px;
@@ -21,7 +25,11 @@ body::after {
   top: 0 ;
   left: 0 ;
   z-index: -1 ;
+<<<<<<< HEAD
   background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(251, 241, 212, 1) 55%, rgba(241, 194, 102, 0) 100%);
+=======
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 37%, rgba(251, 230, 212, 1) 55%, rgba(250, 156, 70, 0) 100%);
+>>>>>>> 927e348fe53d22474b69c282af4c0d842a9a9086
 
 }
 .container {
@@ -37,7 +45,11 @@ body::after {
 }
 
 .container > h1 {
+<<<<<<< HEAD
   color: #db7600;
+=======
+  color: #a74100;
+>>>>>>> 927e348fe53d22474b69c282af4c0d842a9a9086
 }
 .gif-container {
   margin-top: 50px;
@@ -76,6 +88,7 @@ body::after {
 }
 .header--nav-link:hover {
   color: rgb(249, 197, 132);
+
 }
 /* Fin de Header */
 
@@ -84,6 +97,7 @@ body::after {
   background-color: rgba(250, 120, 0, 0.61);
   bottom: 0;
   color: rgb(29, 15, 1);
+
   font-size: 16px;
   font-weight: bold;
   height: 50px;
@@ -98,6 +112,7 @@ body::after {
   list-style: none;
   margin-top: 10px;
 }
+
 .footer--link {
   color: rgb(29, 14, 1);
   text-decoration: none;
